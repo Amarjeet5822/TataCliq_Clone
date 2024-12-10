@@ -1,4 +1,7 @@
 import { Link, Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import Section from "./MainContent/Section";
 
 
 
@@ -6,9 +9,9 @@ function App() {
 
   return (
     <>
-      <div>
-          <h2 className="text-2xl text-center">Hello World!</h2>
-      </div>    
+      <Navbar />
+      <Section /> 
+      <Footer />  
     </>
   )
 }
