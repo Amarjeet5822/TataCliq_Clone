@@ -2,7 +2,7 @@ import { tataTrust, trust } from '../../Links'
 
 function FooterTrust() {
   return (
-    <div className='w-4/5 m-auto relative'>
+    <div className='w-4/5 m-auto relative '>
       <div className='flex justify-center'>
         <div>
           <img src={tataTrust} alt="tataTrust" />

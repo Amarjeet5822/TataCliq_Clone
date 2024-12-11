@@ -1,9 +1,6 @@
-import { Link, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Section from "./MainContent/Section";
-
-
 
 function App() {
 
