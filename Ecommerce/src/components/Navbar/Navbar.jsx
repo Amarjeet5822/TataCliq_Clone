@@ -5,8 +5,8 @@ import BottomNav from './BottomNav'
 
 function Navbar() {
   return (
-    <div className='min-w-2xl h-24 bg-stone-800 border-t-white'>
-      <div className='min-w-2xl h-24 w-4/5 m-auto text-white flex justify-between gap-10'> 
+    <div className='w-full box-border  h-24 bg-stone-800 border-t-white'>
+      <div className='h-24 w-4/5 mx-auto text-white flex justify-between gap-10'> 
         <TataImage />
         <div className='w-full h-full flex flex-col '>
           {/* <TopNav /> */}

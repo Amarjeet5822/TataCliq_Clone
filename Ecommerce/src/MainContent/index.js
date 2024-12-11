@@ -1,15 +1,12 @@
-import FullyFramed from "./FullyFramed";
 import ShineOn from "./ShineOn";
 import BewareFraud from "./BewareFraud";
-import WatchSpace from "./WatchSpace";
-import GadgetDen from "./GadgetDen";
+import MainSlider from "./MainSlider";
+import WScreenImage from "./WScreenImage";
 
 export {
-  FullyFramed,
   ShineOn,
-  BewareFraud,
-  WatchSpace,
-  GadgetDen,
-  
+  BewareFraud, 
+  MainSlider,
+  WScreenImage, 
   
 }

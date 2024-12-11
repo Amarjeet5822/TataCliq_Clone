@@ -2,12 +2,12 @@ import {AndroidApple, FooterBottom, FooterTrust, FooterTrustBelow, } from './ind
 
 function Footer() {
   return (
-    <>
+    <div className='w-full box-border'>
       <FooterTrust />
       <FooterTrustBelow />
       <AndroidApple />
       <FooterBottom />
-    </>
+    </div>
   )
 }
 

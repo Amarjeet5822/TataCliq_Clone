@@ -3,8 +3,8 @@ import { android, appleLink, facebook, instagram, linkedin, twitter, youTube } f
 
 function AndroidApple() {
   return (
-    <div className='w-screen bg-lightGrayWeight h-24 py-5 mb-5 '>
-      <div className='w-4/5 h-full m-auto mb-10 flex justify-between items-center'>
+    <div className='w-full bg-lightGrayWeight h-24 py-5 mb-5 '>
+      <div className='w-4/5 h-full mx-auto mb-10 flex justify-between items-center'>
         <div className='flex gap-2'>
           <p>Download App</p>
           <img src={android} alt="androidLogo" className='w-6 h-6' />

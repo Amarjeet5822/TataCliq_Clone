@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 function FooterTrustBelow() {
   return (
-    <div className='w-4/5 m-auto flex flex-wrap py-12' >
+    <div className='w-4/5 mx-auto flex flex-wrap py-12' >
         <div className='w-3/5 flex '>
           <div className='w-1/3'>
             <p className='font-semibold mb-4'>Tata MarketPlace</p>

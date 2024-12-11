@@ -2,7 +2,7 @@ import React from 'react'
 
 function FooterBottom() {
   return (
-    <div className='w-4/5 m-auto mb-2'>
+    <div className='w-4/5 mx-auto mb-2'>
       <div className='text-sm'>
         <p className='font-semibold'>Tata CLiQ FASHION: Shop Online with India's most trusted destination</p>
         <div className='py-4 '>
