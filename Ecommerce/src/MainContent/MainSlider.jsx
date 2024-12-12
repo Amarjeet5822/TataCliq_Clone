@@ -20,23 +20,14 @@ function MainSlider() {
     setCount((prev) => prev < images.length - 1 ? prev + 1 : 0)
   }
   return (
-    <div className="w-full box-border  mb-10">
-      <div className="w-full h-auto relative">
-        <div>
-          <img src={`Images/${images[count]}`} alt={images[count]} />
-        </div>
-        <div className=" w-full flex justify-between px-5 absolute top-40">
-          <div>
-            <button className="size-5 md:size-16  rounded-full text-5xl font-thin text-gray-500 bg-lightGray bg-opacity-60"
-              onClick={decrementHandler}>˂</button>
-          </div>
-          <div>
-            <button className="size-16 rounded-full text-5xl font-thin text-gray-500 bg-lightGray bg-opacity-60"
-              onClick={incrementHandler}>˃</button>
-          </div>
-
-        </div>
+    <div className="w-full relative box-border h mb-10">
+      <div>
+      <img src={`Images/${images[count]}`} alt={images[count]} className="w-full h-full object-cover" />
       </div>
+      <button className="absolute top-[20%] sm:top-[30%] md:top-[30%] lg:top-[42%] left-4 transform -translate-y-1/2 text-5xl font-thin rounded-full  shadow hover:scale-105 transition text-gray-500 size-16 bg-lightGray bg-opacity-60"
+        onClick={decrementHandler}>˂</button>
+      <button className="absolute top-[20%] sm:top-[30%] md:top-[30%]  lg:top-[42%] right-4 transform -translate-y-1/2 shadow hover:scale-105 transition  size-16 rounded-full text-5xl font-thin text-gray-500 bg-lightGray bg-opacity-60"
+        onClick={incrementHandler}>˃</button>
 
     </div>
   )

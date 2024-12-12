@@ -16,6 +16,9 @@ export default {
       scale: {
         103: '1.03',
       },
+      height: {
+        '25': '6.25rem', // Adds a custom height
+      },
     },
   },
 }
