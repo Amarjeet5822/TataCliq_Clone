@@ -11,7 +11,8 @@ export default {
       },
       colors: {
         lightGray: 'rgb(236,236,236)',
-        lightGrayWeight:'rgb(249,249,249)'
+        lightGrayWeight:'rgb(249,249,249)',
+        customGray: 'rgb(74, 74, 74)',
       },
       scale: {
         103: '1.03',
@@ -19,6 +20,15 @@ export default {
       height: {
         '25': '6.25rem', // Adds a custom height
       },
+      width:{
+        "90":"22.5rem"
+      },
+      inset: {
+        '204': '20.4%', // Custom utility for left: 20%
+      },
+      spacing: {
+        "13.8": "3.690rem"
+      }
     },
   },
 }

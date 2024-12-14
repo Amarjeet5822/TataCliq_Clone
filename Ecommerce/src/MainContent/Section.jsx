@@ -69,6 +69,7 @@ const smallImages = ["01westside.png", "02womenswear.png", "03mensWear.png", "04
 function Section() {
   return (
     <div className='w-full box-border bg-lightGray pt-1 pb-24'>
+    
       <MainSlider  />
       <WScreenImage images={smallImages}/>
       <div className='w-4/5 mx-auto flex justify-center gap-3 mb-10 '>
