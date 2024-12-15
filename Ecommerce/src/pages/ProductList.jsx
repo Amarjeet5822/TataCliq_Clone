@@ -31,6 +31,7 @@ function ProductList() {
   }
   return (
     <div className='max-w-screen-xl mx-auto my-20 pb-2 '>
+      <div className='text-3xl mb-10 text-center font-semibold'>All Products</div>
       <div className='max-w-5xl mx-auto  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5'>
         {
           items?.map((item) => {
