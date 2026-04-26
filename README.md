@@ -23,7 +23,7 @@ It’s a fully responsive and modern e-commerce web app using **React**, styled 
 
 ## 🔗 Live Demo
 
-🌐 [TataCliq Live Website](https://tata-cliq-clone-cap.netlify.app)
+🌐 [TataCliq Live Website](https://tata-qlick-clone.netlify.app/)
 
 ---
 
